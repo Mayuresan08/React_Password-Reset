@@ -1,0 +1,48 @@
+body{
+    
+    height: 100vh;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.card{
+width: 24rem;
+}
+
+.form-control:invalid{
+    border: 1px solid red;
+}
+
+.error{
+    font-size: 0.9rem;
+    color: red;
+}
+label{
+    color: blue;
+    font-size: 1.1rem;
+}
+.fogotPass{
+    display: inline;
+    float: right;
+    color: red;
+}
+
+p{
+    color: black;
+}
+ .link{
+ text-decoration: none;
+ color: green;
+}
+
+.link:hover{
+    color: black;
+}
