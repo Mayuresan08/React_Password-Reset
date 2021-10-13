@@ -4,7 +4,7 @@ import { BrowserRouter,Switch,Route,Redirect } from 'react-router-dom';
 
 import Login from './pages/login/login';
 import ForgotPassWord from './pages/forgotPassword/forgotPassword';
-import Register from './pages/registe/register';
+import Register from './pages/register/register';
 import Protected from './pages/protected/protected';
 import ChangePassword from './pages/changePassword/changePassword';
 
