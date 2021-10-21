@@ -17,7 +17,7 @@ function ForgotPassWord()
         console.log(email)
          if(email.length === 0) setErr("Please enter Email")
         try{
-        const response = await axios.post("http://localhost:3001/resetPassword",{
+        const response = await axios.post("https://passwordreset1.herokuapp.com/resetPassword",{
             email:email
         })
         console.log(response)

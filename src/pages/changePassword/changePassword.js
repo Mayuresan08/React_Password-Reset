@@ -33,7 +33,7 @@ import axios from "axios"
         }
         try{
 
-        const response = await axios.post(`http://localhost:3001/resetPassword/${id}/${token}`,{
+        const response = await axios.post(`https://passwordreset1.herokuapp.com/${id}/${token}`,{
             password:password
         })
         console.log(response)

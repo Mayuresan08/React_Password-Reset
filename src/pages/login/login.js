@@ -11,7 +11,7 @@ function Login()
 const history= useHistory()
 const [log,setLog] =useContext(AppContext)
 const sendLogin =async(values)=>{
-    let response = await axios.post("http://localhost:3001/users/login",
+    let response = await axios.post("https://passwordreset1.herokuapp.com/users/login",
     {
         email:values.email,
         password:values.password
@@ -19,7 +19,7 @@ const sendLogin =async(values)=>{
     console.log(response)
     if(response.status === 200)
     {
-    window.localStorage.setItem("auth-token",response.status.data)
+    window.localStorage.setItem("auth-token",response.data)
     return true
     }
    else return false
